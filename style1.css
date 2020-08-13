@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fondamento:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.background {
+  height: 100vh;
+  background-image: url("f2.jpg");
+  background-size: cover;
+  background-position-y: -80px;
+  background-repeat: no-repeat;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  position: left;
+  padding: 0px;
+}
+.head {
+  font-family: "Pacifico", cursive;
+  margin-top: 25px;
+  margin-left: 70px;
+  position: left;
+  font-size: x-large;
+  color: rgb(2, 11, 19);
+}
+li {
+  font-family: "Fondamento", cursive;
+  color: black;
+  display: inline;
+  padding: 5px;
+  margin-left: 30px;
+}
+li a {
+  display: inline;
+  color: rgb(17, 1, 1);
+  font-size: large;
+  padding: 5px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(53, 26, 30);
+  color: antiquewhite;
+}
+.nav {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.btn1 {
+  margin-left: 100px;
+  border-radius: 40px;
+  size: 40px;
+  padding: 10px;
+}
+.btn2 {
+  border-radius: 30px;
+  size: 40px;
+  padding: 10px;
+}
+.text1 {
+  margin-top: 20px;
+  margin-left: 225px;
+  font-family: "Vidaloka", serif;
+  font-size: 30px;
+}
+.text2 {
+  margin-left: 225px;
+  font-family: "Playfair Display", serif;
+  font-size: 70px;
+}
+.text3 {
+  margin-left: 225px;
+  font-family: "Vidaloka", serif;
+  font-size: 35px;
+}
+.container2 {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 0px;
+  font-size: 20px;
+}
+.t1 {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  font-family: "Vidaloka", serif;
+  padding-right: 90px;
+  padding-left: 90px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.t2 {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-family: "Vidaloka", serif;
+  padding-right: 90px;
+  padding-left: 90px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.t3 {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  font-family: "Vidaloka", serif;
+  padding-right: 90px;
+  padding-left: 90px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
